@@ -34,10 +34,10 @@ def read_xml_annotation(xml_path, target_classes):
 
 
 # Caminho para a pasta principal com 24 subpastas e arquivos XML de anotações
-annotations_path = 'C:\\Users\\Gamer\\Documents\\Datasets\\Cromossomos\\Data\\24_chromosomes_object\\annotations\\'
+annotations_path = '...Cromossomos\\Data\\24_chromosomes_object\\annotations\\'
 
 # Caminho para a pasta com as imagens originais do Dataset
-images_path = 'C:\\Users\\Gamer\\Documents\\Datasets\\Cromossomos\\Data\\24_chromosomes_object\\JPEG\\'
+images_path = '...Cromossomos\\Data\\24_chromosomes_object\\JPEG\\'
 
 # Vetor que armazena o nome das classes existentes
 target_classes = ['A1', 'A2', 'A3', 'B4', 'B5', 'C6', 'C7', 'C8', 'C9', 'C10', 'C11',
