@@ -1,0 +1,38 @@
+train: C:/Users/.../Documents/Projetos/ReconhecimentoCromossomoYolo/train
+val: C:/Users/.../Documents/Projetos/ReconhecimentoCromossomoYolo/val
+
+nc: 24
+
+names:
+  - A1
+  - A2
+  - A3
+  - B4
+  - B5
+  - C6
+  - C7
+  - C8
+  - C9
+  - C10
+  - C11
+  - C12
+  - D13
+  - D14
+  - D15
+  - E16
+  - E17
+  - E18
+  - F19
+  - F20
+  - G21
+  - G22
+  - "X"
+  - "Y"
+
+model:
+  pretrained: C:/Users/.../Documents/Projetos/ReconhecimentoCromossomoYolo/weights  # Caminho para pesos pré-treinados (opcional)
+
+data:
+  train_data: C:/Users/.../Documents/Projetos/ReconhecimentoCromossomoYolo/train.txt  # Arquivo com lista de caminhos para imagens de treinamento
+  valid_data: C:/Users/.../Documents/Projetos/ReconhecimentoCromossomoYolo/valid.txt  # Arquivo com lista de caminhos para imagens de validação
+  classes: C:/Users/.../Documents/Projetos/ReconhecimentoCromossomoYolo/classes.names  # Arquivo com lista de nomes de classes
